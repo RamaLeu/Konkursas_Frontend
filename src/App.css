@@ -10,6 +10,13 @@
 .btn:hover{
   background: green;
 }
+
+.delBtn{
+  background-color: darkred;
+}
+.delBtn:hover{
+  background-color: red;
+}
 body{
   background-image: url("https://cdn.suwalls.com/wallpapers/space/mars-surface-29477-1920x1080.jpg");
   background-size:cover

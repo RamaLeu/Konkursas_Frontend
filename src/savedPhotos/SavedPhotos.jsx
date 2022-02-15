@@ -46,7 +46,7 @@ const SavedPhotos = () => {
 
                {photoData.map((photo, index) =><div className="photoWBtn"><img src={photo.photoUrl}alt="roverPhoto" /* onClick={(e) =>{
                 enlargeImage(e)}} */ id="image"/><button href='#' onClick={(e)=> { deleteImage(index)
-                }} className="btn">DELETE</button></div>)}
+                }} className="btn delBtn">DELETE</button></div>)}
            </div>:<div><h2>No Photos Saved!</h2></div>} 
         </div>
     )

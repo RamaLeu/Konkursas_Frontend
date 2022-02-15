@@ -12,9 +12,6 @@ td{
 .images{
     width: 10%;
 }
-tr{
-    width: 100%;
-}
 .roverList{
     display: flex;
     flex-direction: column;

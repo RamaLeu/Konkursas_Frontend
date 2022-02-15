@@ -21,6 +21,9 @@ const Rover = () => {
                     {name ==="Curiosity"?<Link to={"/rover/"+name+"/mast/"+date} className="link">Mast Camera</Link>: <div></div>}
                     </li>
                     <li>
+                    {name ==="Curiosity"?<Link to={"/rover/"+name+"/chemcam/"+date} className="link">Chemistry and Camera Complex</Link>: <div></div>}
+                    </li>
+                    <li>
                     {name ==="Curiosity"?<Link to={"/rover/"+name+"/mahli/"+date} className="link">Mars Hand Lens Imager</Link>: <div></div>}
                     </li>
                     <li>
