@@ -1,0 +1,22 @@
+body{
+    width: 100%;
+}
+
+td img{
+    width: 100%;
+}
+td{
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.images{
+    width: 10%;
+}
+tr{
+    width: 100%;
+}
+.roverList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

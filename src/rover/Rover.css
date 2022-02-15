@@ -1,0 +1,32 @@
+ul{
+    border: 2px solid black;
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+li{
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 2px;
+}
+.link:hover{
+    background-color: darkgreen;
+    color: white;
+}
+.cameraList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.date{
+    width: 15%;
+    padding: 1%;
+}

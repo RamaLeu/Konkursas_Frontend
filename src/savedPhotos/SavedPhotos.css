@@ -1,0 +1,12 @@
+.photoWBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin: 5%;
+}
+.savedPhotoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
